@@ -4,15 +4,15 @@
     <div class="container">
 
         <ol class="breadcrumb">
-            <li><a href="{{ route('anasayfa') }}">Anasayfa</a></li>
-            <li class="active">Arama Sonucu</li>
+            <li><a href="{{ route('anasayfa') }}">Ana Səhifə</a></li>
+            <li class="active">Axtarış nəticələri</li>
         </ol>
 
         <div class="products bg-content">
             <div class="row">
                 @if (count($urunler)==0)
                     <div class="col-md-12 text-center">
-                        Bir ürün bulunamadı!
+                        Məhsul tapılmadı!
                     </div>
                 @endif
                 @foreach($urunler as $urun)

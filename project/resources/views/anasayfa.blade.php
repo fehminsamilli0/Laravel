@@ -6,7 +6,7 @@
         <div class="row">
             <div class="col-md-3">
                 <div class="panel panel-default">
-                    <div class="panel-heading">Kategoriler</div>
+                    <div class="panel-heading">Kategoriyalar</div>
                     <div class="list-group categories">
                         @foreach($kategoriler as $kategori)
                         <a href="{{route('kategori',$kategori->slug)}}" class="list-group-item">
@@ -46,7 +46,7 @@
             </div>
             <div class="col-md-3">
                 <div class="panel panel-default" id="sidebar-product">
-                    <div class="panel-heading">Günün Fırsatı</div>
+                    <div class="panel-heading">Günün Fürsəti</div>
                     <div class="panel-body">
                         <a href="{{route('urun',$urun_gunun_firsati->slug)}}">
                             <img src="http://via.placeholder.com/400x485?text=UrunResmi" class="img-responsive">
@@ -77,7 +77,7 @@
         <hr>
         <div class="products">
             <div class="panel panel-theme">
-                <div class="panel-heading">Çok Satan Ürünler</div>
+                <div class="panel-heading">Çox Satılan Məhsullar</div>
                 <div class="panel-body">
                     <div class="row">
                         @foreach($urunler_cok_satan as $urun)
@@ -93,7 +93,7 @@
         </div>
         <div class="products">
             <div class="panel panel-theme">
-                <div class="panel-heading">İndirimli Ürünler</div>
+                <div class="panel-heading">Endirimli Məhsullar</div>
                 <div class="panel-body">
                     <div class="row">
                         @foreach($urunler_indirimli as $urun)
