@@ -19,6 +19,15 @@
             </div>
             <div class="col-md-6">
                 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+
+
+
+                FEHMIN
+
+
+
+
                     <ol class="carousel-indicators">
                         @for($i=1; $i<=count($urunler_slider); $i++)
                         <li data-target="#carousel-example-generic" data-slide-to="{{ $i }}" class="{{ $i==0 ? 'active' : '' }}"></li>
