@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f92ed8e0-0ece-4a4d-ba31-871a6810b574" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8ccc0329-023b-4b8f-bdbe-c999bdff3b70.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/anasayfa.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/anasayfa.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/arama.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/arama.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AnasayfaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AnasayfaController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +14,17 @@
     <execution />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
@@ -210,7 +216,7 @@
       <workItem from="1622108012370" duration="15005000" />
       <workItem from="1622183366701" duration="46000" />
       <workItem from="1622183439865" duration="1535000" />
-      <workItem from="1637849846115" duration="738000" />
+      <workItem from="1637849846115" duration="1092000" />
     </task>
     <servers />
   </component>
@@ -220,78 +226,15 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.env" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="531" y="207" key="#Notifications" timestamp="1616394650109">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="531" y="207" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1616394650109" />
-    <state x="340" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617457494615">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="340" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1617457494615" />
-    <state x="429" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1615835287246">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="429" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1615835287246" />
-    <state width="943" height="533" key="#com.intellij.structuralsearch.plugin.ui.StructuralReplaceDialog" timestamp="1621368323379">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="943" height="533" key="#com.intellij.structuralsearch.plugin.ui.StructuralReplaceDialog/0.0.1366.728@0.0.1366.728" timestamp="1621368323379" />
-    <state x="211" y="97" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog" timestamp="1621368323379">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="211" y="97" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1621368323379" />
-    <state x="352" y="142" key="EditFileWatcherDialog" timestamp="1617456580937">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="352" y="142" key="EditFileWatcherDialog/0.0.1366.728@0.0.1366.728" timestamp="1617456580937" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1622121690498">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1622121690498" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1622121690498">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1622121690498" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1622121690498">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1622121690498" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1622121690498">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1622121690498" />
-    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1615836277844">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1615836277844" />
-    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1622110334711">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1622110334711" />
-    <state x="184" y="9" key="SettingsEditor" timestamp="1615729924112">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1615729924112" />
-    <state x="581" y="251" width="316" height="244" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1617391831248">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="581" y="251" width="316" height="244" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.728@0.0.1366.728" timestamp="1617391831248" />
-    <state x="541" y="102" width="490" height="524" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1616329758165">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="541" y="102" width="490" height="524" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1616329758165" />
-    <state x="0" y="0" width="650" height="728" key="find.popup" timestamp="1622115924351">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="0" y="0" width="650" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1622115924351" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1620211609004">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1620211609004" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1622115880437">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1622115880437" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
